@@ -15,7 +15,6 @@ class Grid:
         return 0 <= x < self.width and 0 <= y < self.height
 
     def get_cell(self, x: int, y: int) -> Cell | None:
-        # Sınırlar geçerliyse cells[x][y] döndür, değilse None
         if self.is_valid_position(x, y):
             return self.cells[x][y]
         return None
