@@ -11,5 +11,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# Python File
+# Python/Project File
 src/prototype.py
+*.ppp
+/src/Project
